@@ -1,0 +1,125 @@
+* {
+    background-color: darkgray;
+}
+
+/*h1:hover {
+    color: red;
+font-size: 48px;}
+*/
+
+.titulos {
+    color: blue;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif}
+
+.size {
+font-size: 72px;
+} 
+
+h2 { 
+    color: purple;
+}
+
+table [border]{
+    border: 1px dotted black;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: red;
+}
+ul>li {
+    color: green;
+}
+
+ul#lista1 li :last-child{
+    color: red;
+}
+
+ /* Combinador Adyacente */
+ h2+p {
+    color: blue; 
+  /* Remueve el margen superior del párrafo inmediatamente después de un h1 */
+  }
+
+  /* Combinador General de Hermano */
+ h ~ p {
+    color: gray; 
+  /
+ }
+  .box {
+    margin: 60px; /* Espacio fuera del borde del div */
+    border: 3px solid black; /* Borde negro de 1px alrededor del div */
+    padding: 20px; /* Espacio dentro del borde del div */
+    width: 200px; /* Ancho del contenido del div */
+    height: 200px; /* Altura del contenido del div */
+    background-color: rgb(red, green, blue);
+    
+  }
+  
+  body {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fes%2Ffotos%2Fcolibr%25C3%25AD&psig=AOvVaw0jvWEzej7MSW3SEetiejX4&ust=1742002209080000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCIj4m2iIwDFQAAAAAdAAAAABAE'); /* Usa una imagen como fondo */
+    background-repeat: no-repeat; /* No repite la imagen de fondo */
+    background-position: center; /* Coloca la imagen de fondo en el centro */
+    background-size: cover; /* Escala la imagen de fondo para cubrir todo el área */
+  }
+
+
+  .relative {
+    position: relative; /* Posiciona el elemento en relación a su posición normal */
+    top: px; /* Desplaza el elemento 10px hacia abajo */
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .absolute {
+    position: absolute; /* Posiciona el elemento en relación a su contenedor más cercano */
+    top: 20px; /* Desplaza el elemento 20px hacia abajo */
+    left: 40px; /* Desplaza el elemento 30px hacia la derecha */
+    background-color: lightgreen;
+    padding: 5px;
+  }
+
+  .fixed {
+    position: fixed; /* Fija el elemento en una posición relativa a la ventana del navegador */
+    bottom: 10px; /* Fija el elemento 10px desde el fondo */
+    right: 10px; /* Fija el elemento 10px desde la derecha */
+    background-color: lightcoral;
+    padding: 10px;
+  }
+
+  .sticky {
+    position: sticky; /* Hace que el elemento sea "pegajoso" y se quede fijado cuando se desplaza */
+    top: 0; /* Fija el elemento en la parte superior */
+    background-color: lightyellow;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+      width: 50%; /* Ancho del 50% del contenedor padre */
+      padding: 2em; /* Relleno de 2 em (relativo al tamaño de la fuente) */
+      margin: 1rem; /* Margen de 1 rem (relativo al tamaño de la raíz) */
+      height: 100vh; /* Altura del 100% de la ventana del navegador */
+      background-color: lightcoral;
+    }
+
+    .container {
+        width: 180%; /* Ancho del 50% del contenedor padre */
+        padding: 3em; /* Relleno de 2 em (relativo al tamaño de la fuente) */
+        margin: 1rem; /* Margen de 1 rem (relativo al tamaño de la raíz) */
+        height: 1vh; /* Altura del 100% de la ventana del navegador */
+        background-color: lightcoral;
+      }
+
+      .button {
+        background-color: black; /* Usa la variable de color primario */
+        padding: 10px 20px; /* Relleno de 10px y 20px */
+        color: red;}
+        
