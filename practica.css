@@ -1,7 +1,8 @@
 * {
-    background-color: rgb(233, 199, 10);
+    background-color: darkgray;
 }
 
+/*h1:hover {
     color: red;
 font-size: 48px;}
 */
@@ -100,3 +101,25 @@ ul#lista1 li :last-child{
     padding: 10px;
     margin-bottom: 10px;
   }
+
+  .container {
+      width: 50%; /* Ancho del 50% del contenedor padre */
+      padding: 2em; /* Relleno de 2 em (relativo al tamaño de la fuente) */
+      margin: 1rem; /* Margen de 1 rem (relativo al tamaño de la raíz) */
+      height: 100vh; /* Altura del 100% de la ventana del navegador */
+      background-color: lightcoral;
+    }
+
+    .container {
+        width: 180%; /* Ancho del 50% del contenedor padre */
+        padding: 3em; /* Relleno de 2 em (relativo al tamaño de la fuente) */
+        margin: 1rem; /* Margen de 1 rem (relativo al tamaño de la raíz) */
+        height: 1vh; /* Altura del 100% de la ventana del navegador */
+        background-color: lightcoral;
+      }
+
+      .button {
+        background-color: black; /* Usa la variable de color primario */
+        padding: 10px 20px; /* Relleno de 10px y 20px */
+        color: red;}
+        
